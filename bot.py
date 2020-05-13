@@ -222,8 +222,4 @@ async def play ( ctx, url : str ):
 
 token = open ('token.txt', 'r').readline()
 
-token2 = os.environ.get('BOT_TOKEN')
-
-bot.run(str(token2))
-
 client.run ( token )
